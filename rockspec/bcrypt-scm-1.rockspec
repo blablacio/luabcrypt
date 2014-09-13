@@ -21,6 +21,7 @@ build = {
 	modules = {
 		bcrypt = {
 			sources = {"src/luabcrypt.c", "src/bcrypt.c", "src/blowfish.c"},
+			libraries = {"crypto"},
 		}
 	}
 }
